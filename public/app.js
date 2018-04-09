@@ -29,6 +29,7 @@
 const createUl = function(){
 let newCat = document.createElement("ul");
   newCat.classList.add("cat");
+  newCat.style.listStyle = "none";
   return newCat;
 };
 
@@ -73,4 +74,5 @@ window.onload = function(){
   addCat("Barnaby","Tuna", "<img width=500 src=https://68.media.tumblr.com/88d0fcf2b84a7b098dda839130597569/tumblr_okuo4teiql1uhevdso1_1280.jpg>" );
   addCat("Max","Whiskas Temptations", "<img width=500 src=http://66.media.tumblr.com/7c5784ea89369c780e782bf10c60315a/tumblr_npb0hlYwhV1u63jaco1_1280.jpg>" );
   addCat("Spooky","plastic wrappers", "<img width= 500 src=/images/Spooky_in_a_bag.jpeg>" );
+
 }
